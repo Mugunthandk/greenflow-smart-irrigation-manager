@@ -1,0 +1,6 @@
+{
+  "name": "Smart Irrigation Scheduler",
+  "description": "An offline-first smart irrigation scheduling application for managing crops, automated rules-based recommendations, and tracking water usage analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,643 @@
+{
+  "fields": [
+    {
+      "id": "f1",
+      "name": "North Cornfield",
+      "crop": "Corn",
+      "area": 15,
+      "location": "Sector A-1",
+      "soilType": "Loamy",
+      "createdAt": "2026-05-21T04:36:47.868Z"
+    },
+    {
+      "id": "f2",
+      "name": "East Orchard",
+      "crop": "Apples",
+      "area": 8,
+      "location": "Sector B-3",
+      "soilType": "Silty",
+      "createdAt": "2026-05-26T04:36:47.868Z"
+    },
+    {
+      "id": "f3",
+      "name": "Valley Paddy",
+      "crop": "Rice",
+      "area": 20,
+      "location": "Sector C-2",
+      "soilType": "Clay",
+      "createdAt": "2026-05-31T04:36:47.868Z"
+    },
+    {
+      "id": "f4",
+      "name": "Hillside Vineyard",
+      "crop": "Grapes",
+      "area": 12,
+      "location": "Sector D-1",
+      "soilType": "Sandy",
+      "createdAt": "2026-06-05T04:36:47.868Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "s1",
+      "fieldId": "f1",
+      "startTime": "06:00",
+      "duration": 45,
+      "waterAmount": 450,
+      "frequency": "daily",
+      "enabled": true,
+      "createdAt": "2026-06-10T04:36:47.869Z"
+    },
+    {
+      "id": "s2",
+      "fieldId": "f2",
+      "startTime": "08:00",
+      "duration": 30,
+      "waterAmount": 240,
+      "frequency": "weekly",
+      "enabled": true,
+      "createdAt": "2026-06-11T04:36:47.869Z"
+    },
+    {
+      "id": "s3",
+      "fieldId": "f3",
+      "startTime": "17:00",
+      "duration": 60,
+      "waterAmount": 800,
+      "frequency": "daily",
+      "enabled": true,
+      "createdAt": "2026-06-12T04:36:47.869Z"
+    },
+    {
+      "id": "s4",
+      "fieldId": "f4",
+      "startTime": "19:30",
+      "duration": 40,
+      "waterAmount": 320,
+      "frequency": "weekly",
+      "enabled": false,
+      "createdAt": "2026-06-13T04:36:47.869Z"
+    }
+  ],
+  "water_usage": [
+    {
+      "id": "u1",
+      "date": "2026-06-05",
+      "fieldId": "f1",
+      "amount": 463,
+      "duration": 45
+    },
+    {
+      "id": "u2",
+      "date": "2026-06-05",
+      "fieldId": "f3",
+      "amount": 740,
+      "duration": 60
+    },
+    {
+      "id": "u3",
+      "date": "2026-06-06",
+      "fieldId": "f1",
+      "amount": 434,
+      "duration": 45
+    },
+    {
+      "id": "u4",
+      "date": "2026-06-06",
+      "fieldId": "f3",
+      "amount": 801,
+      "duration": 60
+    },
+    {
+      "id": "u5",
+      "date": "2026-06-06",
+      "fieldId": "f4",
+      "amount": 321,
+      "duration": 40
+    },
+    {
+      "id": "u6",
+      "date": "2026-06-07",
+      "fieldId": "f1",
+      "amount": 433,
+      "duration": 45
+    },
+    {
+      "id": "u7",
+      "date": "2026-06-07",
+      "fieldId": "f3",
+      "amount": 821,
+      "duration": 60
+    },
+    {
+      "id": "u8",
+      "date": "2026-06-07",
+      "fieldId": "f2",
+      "amount": 236,
+      "duration": 30
+    },
+    {
+      "id": "u9",
+      "date": "2026-06-08",
+      "fieldId": "f1",
+      "amount": 416,
+      "duration": 45
+    },
+    {
+      "id": "u10",
+      "date": "2026-06-08",
+      "fieldId": "f3",
+      "amount": 813,
+      "duration": 60
+    },
+    {
+      "id": "u11",
+      "date": "2026-06-09",
+      "fieldId": "f1",
+      "amount": 486,
+      "duration": 45
+    },
+    {
+      "id": "u12",
+      "date": "2026-06-09",
+      "fieldId": "f3",
+      "amount": 869,
+      "duration": 60
+    },
+    {
+      "id": "u13",
+      "date": "2026-06-10",
+      "fieldId": "f1",
+      "amount": 429,
+      "duration": 45
+    },
+    {
+      "id": "u14",
+      "date": "2026-06-10",
+      "fieldId": "f3",
+      "amount": 759,
+      "duration": 60
+    },
+    {
+      "id": "u15",
+      "date": "2026-06-10",
+      "fieldId": "f2",
+      "amount": 225,
+      "duration": 30
+    },
+    {
+      "id": "u16",
+      "date": "2026-06-10",
+      "fieldId": "f4",
+      "amount": 339,
+      "duration": 40
+    },
+    {
+      "id": "u17",
+      "date": "2026-06-11",
+      "fieldId": "f1",
+      "amount": 411,
+      "duration": 45
+    },
+    {
+      "id": "u18",
+      "date": "2026-06-11",
+      "fieldId": "f3",
+      "amount": 773,
+      "duration": 60
+    },
+    {
+      "id": "u19",
+      "date": "2026-06-12",
+      "fieldId": "f1",
+      "amount": 420,
+      "duration": 45
+    },
+    {
+      "id": "u20",
+      "date": "2026-06-12",
+      "fieldId": "f3",
+      "amount": 826,
+      "duration": 60
+    },
+    {
+      "id": "u21",
+      "date": "2026-06-13",
+      "fieldId": "f1",
+      "amount": 484,
+      "duration": 45
+    },
+    {
+      "id": "u22",
+      "date": "2026-06-13",
+      "fieldId": "f3",
+      "amount": 808,
+      "duration": 60
+    },
+    {
+      "id": "u23",
+      "date": "2026-06-13",
+      "fieldId": "f2",
+      "amount": 222,
+      "duration": 30
+    },
+    {
+      "id": "u24",
+      "date": "2026-06-14",
+      "fieldId": "f1",
+      "amount": 470,
+      "duration": 45
+    },
+    {
+      "id": "u25",
+      "date": "2026-06-14",
+      "fieldId": "f3",
+      "amount": 772,
+      "duration": 60
+    },
+    {
+      "id": "u26",
+      "date": "2026-06-14",
+      "fieldId": "f4",
+      "amount": 331,
+      "duration": 40
+    },
+    {
+      "id": "u27",
+      "date": "2026-06-15",
+      "fieldId": "f1",
+      "amount": 453,
+      "duration": 45
+    },
+    {
+      "id": "u28",
+      "date": "2026-06-15",
+      "fieldId": "f3",
+      "amount": 780,
+      "duration": 60
+    },
+    {
+      "id": "u29",
+      "date": "2026-06-16",
+      "fieldId": "f1",
+      "amount": 445,
+      "duration": 45
+    },
+    {
+      "id": "u30",
+      "date": "2026-06-16",
+      "fieldId": "f3",
+      "amount": 740,
+      "duration": 60
+    },
+    {
+      "id": "u31",
+      "date": "2026-06-16",
+      "fieldId": "f2",
+      "amount": 251,
+      "duration": 30
+    },
+    {
+      "id": "u32",
+      "date": "2026-06-17",
+      "fieldId": "f1",
+      "amount": 477,
+      "duration": 45
+    },
+    {
+      "id": "u33",
+      "date": "2026-06-17",
+      "fieldId": "f3",
+      "amount": 815,
+      "duration": 60
+    },
+    {
+      "id": "u34",
+      "date": "2026-06-18",
+      "fieldId": "f1",
+      "amount": 466,
+      "duration": 45
+    },
+    {
+      "id": "u35",
+      "date": "2026-06-18",
+      "fieldId": "f3",
+      "amount": 745,
+      "duration": 60
+    },
+    {
+      "id": "u36",
+      "date": "2026-06-18",
+      "fieldId": "f4",
+      "amount": 329,
+      "duration": 40
+    },
+    {
+      "id": "u37",
+      "date": "2026-06-19",
+      "fieldId": "f1",
+      "amount": 483,
+      "duration": 45
+    },
+    {
+      "id": "u38",
+      "date": "2026-06-19",
+      "fieldId": "f3",
+      "amount": 822,
+      "duration": 60
+    },
+    {
+      "id": "u39",
+      "date": "2026-06-19",
+      "fieldId": "f2",
+      "amount": 240,
+      "duration": 30
+    },
+    {
+      "id": "u40",
+      "date": "2026-06-20",
+      "fieldId": "f1",
+      "amount": 414,
+      "duration": 45
+    },
+    {
+      "id": "u41",
+      "date": "2026-06-20",
+      "fieldId": "f3",
+      "amount": 802,
+      "duration": 60
+    },
+    {
+      "id": "u42",
+      "date": "2026-06-21",
+      "fieldId": "f1",
+      "amount": 477,
+      "duration": 45
+    },
+    {
+      "id": "u43",
+      "date": "2026-06-21",
+      "fieldId": "f3",
+      "amount": 764,
+      "duration": 60
+    },
+    {
+      "id": "u44",
+      "date": "2026-06-22",
+      "fieldId": "f1",
+      "amount": 432,
+      "duration": 45
+    },
+    {
+      "id": "u45",
+      "date": "2026-06-22",
+      "fieldId": "f3",
+      "amount": 742,
+      "duration": 60
+    },
+    {
+      "id": "u46",
+      "date": "2026-06-22",
+      "fieldId": "f2",
+      "amount": 226,
+      "duration": 30
+    },
+    {
+      "id": "u47",
+      "date": "2026-06-22",
+      "fieldId": "f4",
+      "amount": 336,
+      "duration": 40
+    },
+    {
+      "id": "u48",
+      "date": "2026-06-23",
+      "fieldId": "f1",
+      "amount": 465,
+      "duration": 45
+    },
+    {
+      "id": "u49",
+      "date": "2026-06-23",
+      "fieldId": "f3",
+      "amount": 789,
+      "duration": 60
+    },
+    {
+      "id": "u50",
+      "date": "2026-06-24",
+      "fieldId": "f1",
+      "amount": 419,
+      "duration": 45
+    },
+    {
+      "id": "u51",
+      "date": "2026-06-24",
+      "fieldId": "f3",
+      "amount": 847,
+      "duration": 60
+    },
+    {
+      "id": "u52",
+      "date": "2026-06-25",
+      "fieldId": "f1",
+      "amount": 466,
+      "duration": 45
+    },
+    {
+      "id": "u53",
+      "date": "2026-06-25",
+      "fieldId": "f3",
+      "amount": 859,
+      "duration": 60
+    },
+    {
+      "id": "u54",
+      "date": "2026-06-25",
+      "fieldId": "f2",
+      "amount": 255,
+      "duration": 30
+    },
+    {
+      "id": "u55",
+      "date": "2026-06-26",
+      "fieldId": "f1",
+      "amount": 437,
+      "duration": 45
+    },
+    {
+      "id": "u56",
+      "date": "2026-06-26",
+      "fieldId": "f3",
+      "amount": 744,
+      "duration": 60
+    },
+    {
+      "id": "u57",
+      "date": "2026-06-26",
+      "fieldId": "f4",
+      "amount": 339,
+      "duration": 40
+    },
+    {
+      "id": "u58",
+      "date": "2026-06-27",
+      "fieldId": "f1",
+      "amount": 424,
+      "duration": 45
+    },
+    {
+      "id": "u59",
+      "date": "2026-06-27",
+      "fieldId": "f3",
+      "amount": 824,
+      "duration": 60
+    },
+    {
+      "id": "u60",
+      "date": "2026-06-28",
+      "fieldId": "f1",
+      "amount": 434,
+      "duration": 45
+    },
+    {
+      "id": "u61",
+      "date": "2026-06-28",
+      "fieldId": "f3",
+      "amount": 732,
+      "duration": 60
+    },
+    {
+      "id": "u62",
+      "date": "2026-06-28",
+      "fieldId": "f2",
+      "amount": 229,
+      "duration": 30
+    },
+    {
+      "id": "u63",
+      "date": "2026-06-29",
+      "fieldId": "f1",
+      "amount": 476,
+      "duration": 45
+    },
+    {
+      "id": "u64",
+      "date": "2026-06-29",
+      "fieldId": "f3",
+      "amount": 779,
+      "duration": 60
+    },
+    {
+      "id": "u65",
+      "date": "2026-06-30",
+      "fieldId": "f1",
+      "amount": 426,
+      "duration": 45
+    },
+    {
+      "id": "u66",
+      "date": "2026-06-30",
+      "fieldId": "f3",
+      "amount": 844,
+      "duration": 60
+    },
+    {
+      "id": "u67",
+      "date": "2026-06-30",
+      "fieldId": "f4",
+      "amount": 334,
+      "duration": 40
+    },
+    {
+      "id": "u68",
+      "date": "2026-07-01",
+      "fieldId": "f1",
+      "amount": 446,
+      "duration": 45
+    },
+    {
+      "id": "u69",
+      "date": "2026-07-01",
+      "fieldId": "f3",
+      "amount": 806,
+      "duration": 60
+    },
+    {
+      "id": "u70",
+      "date": "2026-07-01",
+      "fieldId": "f2",
+      "amount": 225,
+      "duration": 30
+    },
+    {
+      "id": "u71",
+      "date": "2026-07-02",
+      "fieldId": "f1",
+      "amount": 451,
+      "duration": 45
+    },
+    {
+      "id": "u72",
+      "date": "2026-07-02",
+      "fieldId": "f3",
+      "amount": 846,
+      "duration": 60
+    },
+    {
+      "id": "u73",
+      "date": "2026-07-03",
+      "fieldId": "f1",
+      "amount": 410,
+      "duration": 45
+    },
+    {
+      "id": "u74",
+      "date": "2026-07-03",
+      "fieldId": "f3",
+      "amount": 836,
+      "duration": 60
+    },
+    {
+      "id": "u75",
+      "date": "2026-07-04",
+      "fieldId": "f1",
+      "amount": 444,
+      "duration": 45
+    },
+    {
+      "id": "u76",
+      "date": "2026-07-04",
+      "fieldId": "f3",
+      "amount": 732,
+      "duration": 60
+    },
+    {
+      "id": "u77",
+      "date": "2026-07-04",
+      "fieldId": "f2",
+      "amount": 242,
+      "duration": 30
+    },
+    {
+      "id": "u78",
+      "date": "2026-07-04",
+      "fieldId": "f4",
+      "amount": 308,
+      "duration": 40
+    },
+    {
+      "fieldId": "f1",
+      "amount": 300,
+      "duration": 20,
+      "date": "2026-07-05",
+      "id": "u_ka98okfn8"
+    }
+  ],
+  "settings": {
+    "farmName": "Green Valley Agro Farm",
+    "waterCost": 0.05,
+    "defaultDuration": 30,
+    "notificationsEnabled": true
+  }
+}
