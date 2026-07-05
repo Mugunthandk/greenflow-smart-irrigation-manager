@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌱 GreenFlow Smart Irrigation Manager
 
-# Run and deploy your AI Studio app
+A full-stack Smart Irrigation Management System that helps farmers manage irrigation schedules, monitor water usage, and analyze irrigation data through a modern web dashboard.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/78b4b56a-2a2f-4757-9dd4-0209da289bba
+https://greenflow-smart-irrigation-manager.onrender.com/
 
-## Run Locally
+## 💻 GitHub Repository
 
-**Prerequisites:**  Node.js
+https://github.com/Mugunthandk/greenflow-smart-irrigation-manager
 
+## ✨ Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- User Authentication
+- Dashboard Overview
+- Field Management
+- Irrigation Scheduling
+- Water Usage Analytics
+- Smart Irrigation Recommendations
+- Reports
+- System Settings
+- Responsive UI
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- CSS
+
+### Backend
+- Node.js
+- TypeScript
+
+### Database
+- JSON Database (`irrigation_db.json`)
+
+### Deployment
+- Render
+
+## 📂 Project Structure
