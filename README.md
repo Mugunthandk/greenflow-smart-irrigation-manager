@@ -1,71 +1,36 @@
+<div align="center">
+
 # 🌱 GreenFlow Smart Irrigation Manager
 
-A full-stack Smart Irrigation Management System that helps farmers manage irrigation schedules, monitor water usage, and analyze irrigation data through a modern web dashboard.
+### Smart Farming • Water Conservation • Sustainable Agriculture
 
-## 🚀 Live Demo
+A modern **Full Stack Smart Irrigation Management System** that enables farmers to efficiently manage irrigation schedules, monitor water usage, and receive smart irrigation recommendations through an intuitive web dashboard.
 
-https://greenflow-smart-irrigation-manager.onrender.com/
+<p align="center">
+  <a href="https://greenflow-smart-irrigation-manager.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Open%20Project-success?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Mugunthandk/greenflow-smart-irrigation-manager" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github">
+  </a>
+</p>
 
-## 💻 GitHub Repository
+</div>
 
-https://github.com/Mugunthandk/greenflow-smart-irrigation-manager
+---
 
-## ✨ Features
+# 🚀 Live Demo
 
-- User Authentication
-- Dashboard Overview
-- Field Management
-- Irrigation Scheduling
-- Water Usage Analytics
-- Smart Irrigation Recommendations
-- Reports
-- System Settings
-- Responsive UI
+### 🌐 Try the Application
 
-## 🛠️ Tech Stack
+👉 **Live Website:**  
+**https://greenflow-smart-irrigation-manager.onrender.com/**
 
-### Frontend
-- React
-- TypeScript
-- Vite
-- CSS
+> **Note:** Since the project is hosted on Render's free tier, the first request may take **30–60 seconds** to wake up if the application has been inactive.
 
-### Backend
-- Node.js
-- TypeScript
+---
 
-### Database
-- JSON Database (`irrigation_db.json`)
+# 📂 GitHub Repository
 
-### Deployment
-- Render
-
-## 📂 Project Structure
-greenflow-smart-irrigation-manager/
-│
-├── src/
-├── server.ts
-├── database.ts
-├── irrigation_db.json
-├── package.json
-├── vite.config.ts
-└── README.md
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/Mugunthandk/greenflow-smart-irrigation-manager.git
-cd greenflow-smart-irrigation-manager
-npm install
-npm run dev
-```
-
-## 🌐 Deployment
-
-**Live Project**
-https://greenflow-smart-irrigation-manager.onrender.com/
-
-## 📧 Author
-
-**Mugunthan DK**
-GitHub: https://github.com/Mugunthandk
+👉 **Repository:**  
+**https://github.com/Mugunthandk/greenflow-smart-irrigation-manager**
