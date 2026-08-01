@@ -1,81 +1,299 @@
+<div align="center">
+
 # 🌱 GreenFlow
+### AI-Powered Smart Agriculture & Irrigation Management Platform
 
-> A Smart Agriculture and Irrigation Management System built using the MERN Stack.
+<p align="center">
 
-## 📖 Overview
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![NodeJS](https://img.shields.io/badge/Node.js-22-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-Backend-black?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC?logo=tailwindcss)
+![Render](https://img.shields.io/badge/Deployment-Render-5f43dc)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-GreenFlow helps farmers efficiently manage farms, schedule irrigation, monitor water usage, and make better farming decisions using weather data and analytics.
+</p>
+
+A modern **AI-powered Agriculture Management Platform** built with the **MERN Stack** that enables farmers to efficiently manage farms, monitor irrigation, analyze crop performance, optimize water usage, track weather conditions, and make data-driven farming decisions.
 
 ---
 
-## ✨ Features
+</div>
 
-- 🌾 Farm Management
-- 💧 Smart Irrigation Scheduling
-- 🌦 Weather Information
-- 📊 Analytics Dashboard
-- 🔐 Secure User Authentication
-- 📱 Responsive Design
+# 📖 Table of Contents
+
+- Introduction
+- Features
+- Technology Stack
+- System Architecture
+- Project Structure
+- Installation
+- Environment Variables
+- API Documentation
+- Authentication
+- Security
+- Screenshots
+- Deployment
+- Performance
+- Future Roadmap
+- Contributing
+- License
 
 ---
 
-## 🛠 Tech Stack
+# 🌍 Introduction
 
-### Frontend
+GreenFlow is an intelligent agriculture platform designed for modern farming.
+
+The application provides:
+
+- Smart Farm Management
+- Irrigation Scheduling
+- Weather Forecasting
+- Water Consumption Analytics
+- Crop Monitoring
+- Secure Authentication
+- Dashboard Analytics
+- AI Ready Architecture
+
+GreenFlow aims to reduce water waste while improving agricultural productivity using data-driven decision making.
+
+---
+
+# ✨ Core Features
+
+## 👨‍🌾 Farm Management
+
+- Create unlimited farms
+- Edit farm details
+- Delete farms
+- Farm location tracking
+- Farm area calculation
+- Crop information
+- Soil type management
+
+---
+
+## 💧 Smart Irrigation
+
+- Automatic irrigation scheduler
+- Manual irrigation control
+- Water usage monitoring
+- Daily irrigation history
+- Irrigation calendar
+- Irrigation reminders
+
+---
+
+## 🌦 Weather Module
+
+- Current weather
+- Temperature
+- Humidity
+- Wind Speed
+- Rain Prediction
+- Weather Alerts
+- 7 Day Forecast
+
+---
+
+## 📊 Dashboard
+
+Interactive dashboard showing
+
+- Total Farms
+- Active Crops
+- Water Consumption
+- Irrigation Status
+- Monthly Analytics
+- Productivity Reports
+- Weather Summary
+
+---
+
+## 📈 Analytics
+
+Charts include
+
+- Water Usage
+- Crop Growth
+- Farm Statistics
+- Monthly Reports
+- Rain Analysis
+- Irrigation Efficiency
+
+---
+
+## 🔐 Authentication
+
+- JWT Authentication
+- Password Encryption
+- Protected Routes
+- Role Based Authorization
+- Secure Login
+- Session Management
+
+---
+
+## 👤 User Profile
+
+- Profile Management
+- Password Update
+- Farm Preferences
+- Notification Settings
+- Language Settings
+
+---
+
+# 🚀 Technology Stack
+
+## Frontend
+
 - React
 - TypeScript
-- Tailwind CSS
 - Vite
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-
-### Authentication
-- JWT
-- bcrypt
-
-### Deployment
-- Render
+- Tailwind CSS
+- React Router
+- Axios
+- React Hook Form
+- React Icons
+- Framer Motion
+- Chart.js
+- React ChartJS
+- Leaflet Maps
 
 ---
 
-## 📂 Project Structure
+## Backend
+
+- Node.js
+- Express.js
+- REST API
+- JWT Authentication
+- Multer
+- Morgan
+- Helmet
+- CORS
+- Compression
+- Express Validator
+
+---
+
+## Database
+
+- MongoDB
+- Mongoose
+
+---
+
+## Cloud
+
+- Render
+- MongoDB Atlas
+- Cloudinary
+
+---
+
+## APIs
+
+- OpenWeather API
+- Map API
+- Email Service
+- SMS Gateway
+
+---
+
+# 🏗 System Architecture
+
+```text
+                     +--------------------+
+                     |    Farmer Mobile   |
+                     +--------------------+
+                               |
+                               |
+                     HTTPS REST API
+                               |
+               +-----------------------------+
+               |      React Frontend         |
+               +-----------------------------+
+                               |
+                               |
+                     Axios HTTP Requests
+                               |
+               +-----------------------------+
+               |     Express REST API        |
+               +-----------------------------+
+                  |       |          |
+                  |       |          |
+             JWT Auth  Weather   Analytics
+                  |       |          |
+                  +-------+----------+
+                          |
+                   MongoDB Database
+                          |
+          Farms • Users • Crops • Reports
+```
+
+---
+
+# 📂 Project Structure
 
 ```text
 GreenFlow/
+
+client/
 │
-├── client/
-│   ├── src/
+├── public/
+│
+├── src/
+│   ├── assets/
 │   ├── components/
+│   ├── hooks/
 │   ├── pages/
-│   └── assets/
-│
-├── server/
-│   ├── controllers/
-│   ├── models/
+│   ├── layouts/
+│   ├── services/
+│   ├── context/
+│   ├── utils/
 │   ├── routes/
-│   ├── middleware/
-│   └── config/
+│   ├── styles/
+│   ├── types/
+│   └── App.tsx
 │
-├── README.md
 └── package.json
+
+server/
+│
+├── config/
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+├── services/
+├── utils/
+├── validators/
+├── uploads/
+├── app.js
+├── server.js
+└── package.json
+
+README.md
+LICENSE
 ```
 
 ---
 
-## 🚀 Installation
+# ⚙ Installation
 
-Clone the repository
+Clone Repository
 
 ```bash
-git clone https://github.com/your-username/GreenFlow.git
+git clone https://github.com/yourusername/GreenFlow.git
 ```
 
-Go to project folder
+Move into folder
 
 ```bash
 cd GreenFlow
@@ -87,112 +305,102 @@ Install dependencies
 npm install
 ```
 
-Install client dependencies
+Install Frontend
 
 ```bash
 cd client
 npm install
 ```
 
-Install server dependencies
+Install Backend
 
 ```bash
 cd ../server
 npm install
 ```
 
-Run backend
+---
+
+# ▶ Run Development Server
+
+Backend
 
 ```bash
 npm run dev
 ```
 
-Run frontend
+Frontend
 
 ```bash
 npm run dev
+```
+
+Application
+
+```
+Frontend
+
+http://localhost:5173
+
+Backend
+
+http://localhost:5000
 ```
 
 ---
 
-## 🔐 Environment Variables
+# 🔐 Environment Variables
 
-Create a `.env` file inside the server folder.
+Server
 
 ```env
 PORT=5000
 
-MONGO_URI=your_mongodb_connection
+NODE_ENV=development
 
-JWT_SECRET=your_secret_key
+MONGO_URI=mongodb+srv://...
 
-WEATHER_API_KEY=your_api_key
+JWT_SECRET=your_jwt_secret
+
+JWT_EXPIRE=7d
+
+WEATHER_API_KEY=xxxxxxxx
+
+EMAIL_USER=example@gmail.com
+
+EMAIL_PASSWORD=password
+
+CLIENT_URL=http://localhost:5173
+
+CLOUDINARY_NAME=
+
+CLOUDINARY_API_KEY=
+
+CLOUDINARY_SECRET=
 ```
 
 ---
 
-## 🏗 Architecture
+# 📡 REST API
 
-```text
-Farmer
-   │
-   ▼
-React Frontend
-   │
-   ▼
-Node.js + Express
-   │
-   ▼
-MongoDB Database
-   │
-   ├── Authentication
-   ├── Farm Management
-   ├── Weather Service
-   └── Analytics
-```
+## Authentication
 
----
-
-## 🔄 Workflow
-
-```text
-Login
-   │
-   ▼
-Dashboard
-   │
-   ▼
-Select Farm
-   │
-   ▼
-Check Weather
-   │
-   ▼
-Schedule Irrigation
-   │
-   ▼
-Monitor Water Usage
-   │
-   ▼
-View Analytics
-```
-
----
-
-## 📡 API Endpoints
-
-### Authentication
-
-```
+```http
 POST /api/auth/register
-
 POST /api/auth/login
+GET  /api/auth/profile
+PUT  /api/auth/profile
+PUT  /api/auth/change-password
 ```
 
-### Farms
+---
 
-```
+## Farms
+
+```http
 GET /api/farms
+
+GET /api/farms/:id
 
 POST /api/farms
 
@@ -201,42 +409,208 @@ PUT /api/farms/:id
 DELETE /api/farms/:id
 ```
 
-### Weather
+---
 
-```
-GET /api/weather
+## Irrigation
+
+```http
+GET /api/irrigation
+
+POST /api/irrigation
+
+PUT /api/irrigation/:id
+
+DELETE /api/irrigation/:id
 ```
 
-### Dashboard
+---
 
+## Weather
+
+```http
+GET /api/weather/current
+
+GET /api/weather/forecast
+
+GET /api/weather/history
 ```
+
+---
+
+## Dashboard
+
+```http
 GET /api/dashboard
+
+GET /api/dashboard/analytics
+
+GET /api/dashboard/statistics
 ```
 
 ---
 
-## 📈 Future Improvements
+# 🔒 Security Features
 
-- 🤖 AI Irrigation Prediction
-- 📱 Mobile Application
-- 🌐 IoT Sensor Integration
-- 🚁 Drone Monitoring
-- 🛰 Satellite Analytics
-- 🎤 Voice Assistant
-
----
-
-## 🌍 Benefits
-
-- Save Water
-- Reduce Costs
-- Improve Productivity
-- Smart Farm Management
-- Sustainable Agriculture
+- JWT Authentication
+- Password Hashing (bcrypt)
+- HTTPS Ready
+- Helmet Security
+- Rate Limiting
+- MongoDB Injection Protection
+- XSS Protection
+- CORS Configuration
+- Secure Cookies
+- Input Validation
+- Environment Variable Protection
 
 ---
 
-## ❤️ Built With
+# ⚡ Performance
+
+- Lazy Loading
+- Code Splitting
+- Image Optimization
+- Compression
+- API Caching
+- Optimized MongoDB Queries
+- Reusable Components
+- Efficient State Management
+
+---
+
+# 📊 Database Schema
+
+```text
+Users
+│
+├── name
+├── email
+├── password
+├── role
+└── createdAt
+
+Farms
+│
+├── farmName
+├── location
+├── crop
+├── area
+├── soilType
+└── owner
+
+Irrigation
+│
+├── farmId
+├── date
+├── duration
+├── waterUsage
+└── status
+
+Weather
+│
+├── temperature
+├── humidity
+├── rainfall
+└── forecast
+```
+
+---
+
+# 📱 Responsive Design
+
+✔ Desktop
+
+✔ Tablet
+
+✔ Mobile
+
+✔ Progressive Web App Ready
+
+---
+
+# ☁ Deployment
+
+Frontend
+
+```
+Vercel
+```
+
+Backend
+
+```
+Render
+```
+
+Database
+
+```
+MongoDB Atlas
+```
+
+Images
+
+```
+Cloudinary
+```
+
+---
+
+# 🤖 Future Roadmap
+
+- AI Irrigation Prediction
+- Machine Learning Crop Recommendation
+- IoT Sensor Integration
+- Drone Monitoring
+- Satellite Monitoring
+- Disease Detection
+- Yield Prediction
+- Voice Assistant
+- Offline Support
+- Mobile Application
+- GPS Tracking
+- Smart Notifications
+- Multi Language Support
+- AI Chatbot
+- Blockchain Crop Traceability
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork Repository
+
+2. Create Feature Branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit Changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Create Pull Request
+
+---
+
+# 📜 License
+
+Licensed under the MIT License.
+
+---
+
+# ❤️ Developed With
 
 - React
 - TypeScript
@@ -244,21 +618,24 @@ GET /api/dashboard
 - Express.js
 - MongoDB
 - Tailwind CSS
+- Vite
+- JWT
+- Chart.js
+- Leaflet
+- Render
 
 ---
 
-## 📄 License
+<div align="center">
 
-This project is licensed under the MIT License.
+## ⭐ If you like GreenFlow
 
----
+Give this repository a ⭐
 
-## ⭐ Support
+Fork 🍴
 
-If you like this project,
+Contribute ❤️
 
-⭐ Star this repository
+Build Smart Agriculture Together 🌱
 
-🍴 Fork the project
-
-🤝 Contribute to GreenFlow
+</div>
