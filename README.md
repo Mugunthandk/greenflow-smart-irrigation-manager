@@ -2,214 +2,77 @@
 
 ### AI-Powered Precision Agriculture, Smart Irrigation & Farm Intelligence Platform
 
-> **Sense. Predict. Automate. Optimize. Grow.**
+<p align="center">
 
-GreenFlow AI is an intelligent precision agriculture platform that combines **Artificial Intelligence, Machine Learning, IoT, real-time weather intelligence, predictive irrigation, geospatial analytics, and farm automation** to help farmers make smarter decisions, reduce water consumption, and improve crop productivity.
+**Sense → Analyze → Predict → Decide → Automate → Optimize**
 
----
+GreenFlow AI is an intelligent precision-agriculture platform that combines **Artificial Intelligence, Machine Learning, IoT, weather intelligence, predictive irrigation, geospatial analytics, and farm automation** to help farmers make data-driven decisions, reduce water consumption, and improve crop productivity.
 
-## 🚀 Features
+</p>
 
-* 🌱 Intelligent Farm Management
-* 🌾 AI-Powered Crop Management
-* 💧 Predictive Smart Irrigation
-* 🌦️ Real-Time Weather Intelligence
-* 🤖 AI/ML Recommendations
-* 📊 Advanced Farm Analytics
-* 🗺️ Geospatial Farm Mapping
-* 📡 IoT Sensor Integration
-* ⚡ Autonomous Irrigation Automation
-* 🚨 AI Anomaly Detection
-* 🌿 Crop Health Monitoring
-* 📈 Yield Prediction
-* 💰 Farm Cost & Profitability Analytics
-* 🤖 AI Agricultural Assistant
-* 🔐 Secure Authentication
-* 👥 Role-Based Access Control
-* 📱 Responsive Dashboard
-* 🔄 Real-Time Data Monitoring
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI%2FML-Powered-blueviolet?style=for-the-badge)
+![IoT](https://img.shields.io/badge/IoT-Ready-orange?style=for-the-badge)
+![Agriculture](https://img.shields.io/badge/Precision-Agriculture-green?style=for-the-badge)
+
+</p>
 
 ---
 
-# 🧠 AI Intelligence
+## 🚀 Project Overview
 
-GreenFlow uses farm, soil, weather, crop, and historical data to generate intelligent agricultural recommendations.
+Traditional irrigation often depends on fixed schedules or manual decisions.
 
-### AI Capabilities
+GreenFlow AI introduces an intelligent decision layer that analyzes:
 
-* 💧 Irrigation Prediction
-* 🌾 Crop Recommendation
-* 📈 Yield Prediction
-* 💦 Water Requirement Prediction
-* 🌦️ Weather-Based Irrigation
-* 🌱 Crop Health Prediction
-* 🚨 Anomaly Detection
-* 🐛 Disease Risk Prediction
-* 💰 Irrigation Cost Prediction
-* 💧 Water Optimization
-* 🤖 AI Agricultural Assistant
+* 🌱 Soil conditions
+* 💧 Soil moisture
+* 🌦️ Weather forecasts
+* 🌧️ Rain probability
+* 🌡️ Temperature
+* 💨 Humidity
+* 🌾 Crop type
+* 🌿 Growth stage
+* 🧪 Soil pH
+* 🧂 EC / TDS
+* 📊 Historical irrigation data
+* 🌍 Location
+* ☀️ Solar radiation
+* 💨 Wind speed
+* 💧 Evapotranspiration
+* ⚙️ Pump capacity
+* 🌊 Water availability
 
----
+The platform converts these inputs into actionable recommendations such as:
 
-# 💧 Smart Irrigation Engine
-
-GreenFlow determines **when, where, and how much water should be supplied** based on real-time and historical farm conditions.
-
-```text
-Soil Moisture
-      +
-Weather Forecast
-      +
-Temperature
-      +
-Humidity
-      +
-Rainfall Probability
-      +
-Crop Type
-      +
-Growth Stage
-      +
-Soil Type
-      +
-Soil pH
-      +
-Historical Water Usage
-      +
-Evapotranspiration
-      ↓
-┌──────────────────────────────┐
-│     AI Irrigation Engine     │
-└──────────────┬───────────────┘
-               ↓
-      Water Requirement
-          Prediction
-               ↓
-      Irrigation Decision
-               ↓
-     ┌─────────┴─────────┐
-     ↓                   ↓
-  Irrigate             Delay
-     ↓                   ↓
-Pump / Valve       Save Water
-```
+> **When to irrigate, how much water to use, whether irrigation should be delayed, and when abnormal farm conditions require attention.**
 
 ---
 
-# 🤖 AI Agricultural Assistant
+# ✨ Key Features
 
-GreenFlow includes an AI-powered agricultural assistant that provides farm-specific recommendations.
+## 🌱 Intelligent Farm Management
 
-### Example
+* Farm and field management
+* Crop management
+* Irrigation-zone management
+* Farm performance monitoring
+* Field-level analytics
+* Farm KPI tracking
 
-```text
-Farmer:
-Should I irrigate my tomato field today?
+## 💧 Predictive Smart Irrigation
 
-Farm Data:
-Soil Moisture     : 31%
-Temperature       : 34°C
-Humidity          : 58%
-Rain Probability  : 72%
-Crop Stage        : Flowering
+GreenFlow AI determines:
 
-AI Recommendation:
-❌ Do not irrigate now.
+**When → Where → How Much**
 
-Reason:
-High probability of rainfall detected.
+water should be supplied.
 
-Estimated Water Saving:
-~1,200 Litres
+The irrigation engine considers soil, crop, weather, historical usage, and environmental conditions before generating a decision.
 
-AI Confidence:
-94%
-```
-
----
-
-# 📡 IoT Integration
-
-GreenFlow is designed to connect with real-world agricultural sensors.
-
-### Supported Sensors
-
-```text
-🌱 Soil Moisture Sensor
-🌡️ Temperature Sensor
-💧 Water Flow Sensor
-🌧️ Rain Sensor
-🧪 Soil pH Sensor
-🧂 EC / TDS Sensor
-💨 Humidity Sensor
-☀️ Light Sensor
-```
-
-### IoT Architecture
-
-```text
-┌─────────────────────┐
-│   Farm Sensors      │
-│ Soil / Weather Data │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│ ESP32 / IoT Gateway │
-└──────────┬──────────┘
-           ↓
-      MQTT / HTTP
-           ↓
-┌─────────────────────┐
-│   Cloud Backend     │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│    GreenFlow AI     │
-│    Decision Engine  │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│ Pump / Valve Control│
-└─────────────────────┘
-```
-
----
-
-# ⚡ Autonomous Irrigation
-
-GreenFlow can automatically control irrigation equipment based on AI decisions.
-
-```text
-Soil Moisture Below Threshold
-            ↓
-    Check Weather Forecast
-            ↓
-     Rain Expected?
-       ↙         ↘
-     YES          NO
-      ↓            ↓
-  Delay        AI Calculation
-Irrigation          ↓
-             Water Required
-                    ↓
-               Open Valve
-                    ↓
-                 Pump ON
-                    ↓
-             Monitor Water Flow
-                    ↓
-              Required Amount
-                    ↓
-                 Pump OFF
-```
-
----
-
-# 🌦️ Weather Intelligence
-
-GreenFlow combines weather information with farm conditions to improve irrigation decisions.
-
-### Weather Data
+## 🌦️ Weather Intelligence
 
 * Current temperature
 * Humidity
@@ -218,27 +81,83 @@ GreenFlow combines weather information with farm conditions to improve irrigatio
 * Wind speed
 * Solar radiation
 * Weather forecast
-* Extreme weather alerts
+* Extreme-weather alerts
 * Evapotranspiration
 
----
+## 🤖 AI Recommendations
 
-# 🚨 AI Anomaly Detection
+The AI engine can generate:
 
-GreenFlow continuously analyzes sensor and farm data to detect abnormal behavior.
+* Irrigation recommendations
+* Crop recommendations
+* Water requirement predictions
+* Crop health predictions
+* Yield predictions
+* Disease-risk predictions
+* Irrigation cost predictions
+* Water-saving recommendations
 
-### Detectable Anomalies
+## 📡 IoT Integration
 
-* 🚨 Water leakage
-* 🚨 Pump failure
-* 🚨 Sensor failure
-* 🚨 Abnormal soil moisture
-* 🚨 Unexpected water consumption
-* 🚨 Irrigation failure
-* 🚨 Extreme temperature
-* 🚨 Crop stress
+Designed for integration with:
 
-### Example
+* ESP32
+* Soil moisture sensors
+* Temperature sensors
+* Humidity sensors
+* Rain sensors
+* Water-flow sensors
+* Soil pH sensors
+* EC / TDS sensors
+* Light sensors
+* MQTT
+* HTTP
+* LoRa / LoRaWAN
+
+## ⚡ Autonomous Irrigation
+
+GreenFlow can connect AI decisions with physical irrigation infrastructure.
+
+```text
+Sensor Data
+     ↓
+Soil Moisture Analysis
+     ↓
+Weather Check
+     ↓
+Rain Expected?
+   ↙       ↘
+ YES       NO
+  ↓         ↓
+Delay     AI Calculation
+Irrigation    ↓
+           Water Required
+                ↓
+           Open Valve
+                ↓
+             Pump ON
+                ↓
+        Monitor Water Flow
+                ↓
+          Required Volume
+                ↓
+             Pump OFF
+```
+
+## 🚨 AI Anomaly Detection
+
+Detect potential:
+
+* Water leakage
+* Pump failure
+* Sensor failure
+* Abnormal soil moisture
+* Unexpected water consumption
+* Irrigation failure
+* Extreme temperature
+* Crop stress
+
+Example:
 
 ```text
 🚨 WATER LEAK DETECTED
@@ -258,109 +177,120 @@ Inspect Irrigation Zone #04
 
 ---
 
-# 🌾 Crop Intelligence
+# 🧠 AI / Machine Learning Architecture
 
-GreenFlow can analyze crop and environmental conditions to provide intelligent crop recommendations.
+GreenFlow is designed around multiple ML models for different agricultural prediction tasks.
 
-### Capabilities
-
-* Crop recommendation
-* Crop growth monitoring
-* Growth-stage analysis
-* Yield prediction
-* Crop health scoring
-* Disease-risk prediction
-* Pest-risk prediction
-* Soil suitability analysis
-* Harvest prediction
+| Model            | Application                          |
+| ---------------- | ------------------------------------ |
+| Random Forest    | Irrigation & crop prediction         |
+| XGBoost          | Yield & water requirement prediction |
+| LSTM             | Time-series forecasting              |
+| Prophet          | Weather & water-demand forecasting   |
+| K-Means          | Farm & soil clustering               |
+| Isolation Forest | Anomaly detection                    |
+| CNN              | Crop disease detection               |
+| Regression       | Water requirement estimation         |
 
 ---
 
-# 📷 Computer Vision Ready
-
-GreenFlow can be extended with AI-based crop image analysis.
+# 🔄 AI Intelligence Pipeline
 
 ```text
-Crop Image
-    ↓
-Computer Vision Model
-    ↓
-Image Preprocessing
-    ↓
-Feature Extraction
-    ↓
-Disease / Stress Detection
-    ↓
-Crop Health Score
-    ↓
-AI Recommendation
+┌─────────────────────┐
+│       SENSE         │
+│  Farm / IoT Data    │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      ANALYZE        │
+│ Sensor + Farm Data  │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      PREDICT        │
+│    AI / ML Models   │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│       DECIDE        │
+│ Decision Engine     │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│     AUTOMATE        │
+│ Pump / Valve / Alert│
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      OPTIMIZE       │
+│ Water + Yield + Cost│
+└─────────────────────┘
 ```
 
-### Possible Applications
-
-* Leaf disease detection
-* Pest detection
-* Nutrient deficiency detection
-* Plant stress detection
-* Crop health monitoring
-* Growth analysis
-
 ---
 
-# 🗺️ Geospatial Farm Intelligence
-
-GreenFlow provides map-based farm intelligence.
-
-### Features
-
-* Farm boundary mapping
-* Field segmentation
-* Irrigation zone mapping
-* Sensor locations
-* Pump locations
-* Water source mapping
-* Crop-zone visualization
-* Soil-quality visualization
-* Satellite-data integration ready
-
----
-
-# 📊 Advanced Analytics
-
-GreenFlow provides real-time and historical farm analytics.
-
-### Farm KPIs
+# 🏗️ System Architecture
 
 ```text
-💧 Water Used
-🌱 Crop Health
-🌾 Expected Yield
-🌧️ Rainfall
-⚡ Pump Runtime
-📈 Productivity
-💰 Estimated Cost
-🌍 Water Saved
-🤖 AI Confidence
+                    ┌─────────────────────────┐
+                    │     GreenFlow Web App   │
+                    │   React + TypeScript    │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │       API Gateway       │
+                    └────────────┬────────────┘
+                                 │
+              ┌──────────────────┼──────────────────┐
+              ▼                  ▼                  ▼
+       ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+       │ Farm Engine  │   │  AI Engine   │   │  IoT Engine  │
+       └──────┬───────┘   └──────┬───────┘   └──────┬───────┘
+              │                  │                  │
+              ▼                  ▼                  ▼
+       ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+       │ MongoDB /    │   │ ML Models    │   │ MQTT / HTTP  │
+       │ PostgreSQL   │   │ XGBoost/LSTM │   │ ESP32        │
+       └──────────────┘   └──────────────┘   └──────┬───────┘
+                                                   │
+                                                   ▼
+                                      ┌──────────────────────┐
+                                      │   Decision Engine    │
+                                      └──────────┬───────────┘
+                                                 │
+                                                 ▼
+                                      ┌──────────────────────┐
+                                      │ Pump / Valve Control │
+                                      └──────────────────────┘
 ```
-
-### Analytics
-
-* Daily water consumption
-* Weekly irrigation trends
-* Monthly water usage
-* Crop performance
-* Yield prediction
-* Irrigation efficiency
-* Pump performance
-* Sensor analytics
-* Water-saving analytics
-* Farm productivity
 
 ---
 
-# 💰 Farm Economics
+# 📊 Farm Intelligence Dashboard
 
-GreenFlow helps farmers understand the economic impact of irrigation and crop decisions.
+GreenFlow provides a centralized dashboard for monitoring farm operations.
+
+### Key Performance Indicators
+
+| KPI               | Purpose                           |
+| ----------------- | --------------------------------- |
+| 💧 Water Used     | Monitor irrigation consumption    |
+| 🌍 Water Saved    | Measure optimization              |
+| 🌱 Crop Health    | Track crop condition              |
+| 🌾 Expected Yield | Estimate production               |
+| 🌧️ Rainfall      | Monitor weather conditions        |
+| ⚡ Pump Runtime    | Track energy usage                |
+| 📈 Productivity   | Measure farm performance          |
+| 💰 Estimated Cost | Track irrigation economics        |
+| 🤖 AI Confidence  | Understand prediction reliability |
+
+---
+
+# 💰 Farm Economics Engine
+
+GreenFlow connects agricultural decisions with financial intelligence.
 
 ```text
 Water Usage
@@ -373,9 +303,13 @@ Fertilizer Usage
      +
 Crop Yield
      ↓
-Farm Cost Engine
-     ↓
-Profitability Analysis
+┌──────────────────────┐
+│   Farm Cost Engine   │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│ Profitability Engine │
+└──────────────────────┘
 ```
 
 ### Metrics
@@ -391,101 +325,82 @@ Profitability Analysis
 
 ---
 
-# 🧠 Machine Learning Models
+# 🗺️ Geospatial Intelligence
 
-GreenFlow supports multiple ML models depending on the prediction task.
+GreenFlow provides map-based farm intelligence.
 
-| Model            | Application                          |
-| ---------------- | ------------------------------------ |
-| Random Forest    | Irrigation & crop prediction         |
-| XGBoost          | Yield & water requirement prediction |
-| LSTM             | Time-series forecasting              |
-| Prophet          | Weather & water demand forecasting   |
-| K-Means          | Farm & soil clustering               |
-| Isolation Forest | Anomaly detection                    |
-| CNN              | Crop disease detection               |
-| Regression       | Water requirement estimation         |
+### Capabilities
+
+* Farm boundary mapping
+* Field segmentation
+* Irrigation-zone mapping
+* Sensor locations
+* Pump locations
+* Water-source mapping
+* Crop-zone visualization
+* Soil-quality visualization
+* Satellite-data integration readiness
 
 ---
 
-# 📥 AI Input Parameters
+# 📷 Computer Vision Extension
+
+GreenFlow is designed to support future crop-image intelligence.
 
 ```text
-Soil Moisture
-Temperature
-Humidity
-Rainfall
-Rain Probability
-Crop Type
-Growth Stage
-Soil Type
-Soil pH
-Electrical Conductivity
-Historical Water Usage
-Season
-Location
-Wind Speed
-Solar Radiation
-Evapotranspiration
-Field Area
-Irrigation Method
-Pump Capacity
-Water Availability
+Crop Image
+    ↓
+Image Preprocessing
+    ↓
+Computer Vision Model
+    ↓
+Feature Extraction
+    ↓
+Disease / Stress Detection
+    ↓
+Crop Health Score
+    ↓
+AI Recommendation
 ```
 
----
+### Potential Applications
 
-# 📤 AI Outputs
-
-```text
-💧 Recommended Water Volume
-⏰ Recommended Irrigation Time
-🌱 Crop Health Score
-🌾 Expected Yield
-🌧️ Rain Risk
-🚨 Anomaly Risk
-💰 Estimated Irrigation Cost
-📊 Water Saving Percentage
-🤖 AI Confidence Score
-```
+* Leaf disease detection
+* Pest detection
+* Nutrient deficiency detection
+* Plant stress detection
+* Crop health monitoring
+* Growth analysis
 
 ---
 
-# 🏗️ System Architecture
+# 📡 IoT Data Pipeline
 
 ```text
-                    ┌──────────────────────┐
-                    │   GreenFlow Web App  │
-                    │ React + TypeScript   │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │      API Gateway     │
-                    └──────────┬───────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              ▼                ▼                ▼
-       ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-       │ Farm Engine │  │  AI Engine  │  │ IoT Engine  │
-       └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
-              │                │                │
-              ▼                ▼                ▼
-       ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-       │ PostgreSQL  │  │ ML Models   │  │ MQTT / HTTP │
-       │ / MongoDB   │  │ XGB/LSTM    │  │ ESP32       │
-       └─────────────┘  └─────────────┘  └──────┬──────┘
-                                                │
-                                                ▼
-                                     ┌──────────────────┐
-                                     │ Decision Engine  │
-                                     └────────┬─────────┘
-                                              │
-                                              ▼
-                                     ┌──────────────────┐
-                                     │ Pump / Valve     │
-                                     │ Automation       │
-                                     └──────────────────┘
+┌──────────────────────┐
+│     Farm Sensors     │
+│ Soil / Weather Data  │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│   ESP32 / Gateway    │
+└──────────┬───────────┘
+           ↓
+      MQTT / HTTP
+           ↓
+┌──────────────────────┐
+│    Cloud Backend     │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│     GreenFlow AI     │
+│   Decision Engine    │
+└──────────┬───────────┘
+           ↓
+┌──────────────────────┐
+│   Pump / Valve       │
+│     Automation       │
+└──────────────────────┘
 ```
 
 ---
@@ -494,81 +409,119 @@ Water Availability
 
 ## Frontend
 
-```text
-React
-TypeScript
-Vite
-Tailwind CSS
-Chart.js
-Leaflet
-```
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Chart.js
+* Leaflet
 
 ## Backend
 
-```text
-Node.js
-Express.js
-REST API
-WebSocket
-JWT Authentication
-```
+* Node.js
+* Express.js
+* REST API
+* WebSocket
+* JWT Authentication
 
 ## AI / ML
 
-```text
-Python
-FastAPI
-Scikit-learn
-XGBoost
-TensorFlow
-PyTorch
-Pandas
-NumPy
-```
+* Python
+* FastAPI
+* Scikit-learn
+* XGBoost
+* TensorFlow
+* PyTorch
+* Pandas
+* NumPy
 
-## Database
+## Databases
 
-```text
-MongoDB
-PostgreSQL
-Redis
-```
+* MongoDB
+* PostgreSQL
+* Redis
 
 ## IoT
 
-```text
-ESP32
-MQTT
-LoRa / LoRaWAN
-HTTP
-Sensor Networks
-```
+* ESP32
+* MQTT
+* LoRa / LoRaWAN
+* HTTP
+* Sensor Networks
 
 ## Cloud & DevOps
 
+* AWS
+* Firebase
+* Google Cloud
+* Docker
+* GitHub
+* CI/CD
+
+---
+
+# 📁 Suggested Project Structure
+
 ```text
-AWS
-Firebase
-Google Cloud
-Docker
-GitHub
-CI/CD
+greenflow-ai/
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   └── utils/
+│
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   ├── services/
+│   └── server.js
+│
+├── ai-engine/
+│   ├── models/
+│   ├── datasets/
+│   ├── preprocessing/
+│   ├── training/
+│   ├── inference/
+│   └── api/
+│
+├── iot/
+│   ├── esp32/
+│   ├── sensors/
+│   ├── mqtt/
+│   └── automation/
+│
+├── docs/
+│   ├── architecture/
+│   ├── diagrams/
+│   └── api/
+│
+├── .env.example
+├── docker-compose.yml
+├── README.md
+└── LICENSE
 ```
 
 ---
 
 # 🔐 Security
 
-* JWT Authentication
+GreenFlow follows a security-oriented architecture with:
+
+* JWT authentication
 * Role-Based Access Control
-* Secure API Architecture
-* Password Hashing
-* Protected Routes
-* Input Validation
-* API Rate Limiting
-* Audit Logs
-* Environment Variables
-* Secure IoT Communication
+* Secure API architecture
+* Password hashing
+* Protected routes
+* Input validation
+* API rate limiting
+* Audit logging
+* Environment variables
+* Secure IoT communication
 
 ### User Roles
 
@@ -586,60 +539,30 @@ Field Worker
 
 ---
 
-# 🔄 GreenFlow Intelligence Pipeline
+# 📈 Development Roadmap
 
-```text
-        SENSE
-          ↓
-   Collect Farm Data
-          ↓
-        ANALYZE
-          ↓
-   Process Sensor Data
-          ↓
-        PREDICT
-          ↓
-     AI / ML Models
-          ↓
-        DECIDE
-          ↓
-   AI Decision Engine
-          ↓
-       AUTOMATE
-          ↓
- Pump / Valve / Alert
-          ↓
-       OPTIMIZE
-          ↓
-   Save Water & Improve Yield
-```
-
----
-
-# 📈 Future Roadmap
-
-### Phase 1
+## Phase 1 • Foundation
 
 * [x] Farm Management
 * [x] Crop Management
 * [x] Weather Intelligence
 * [x] Smart Irrigation Dashboard
 
-### Phase 2
+## Phase 2 • Intelligence
 
 * [ ] IoT Sensor Integration
 * [ ] AI Irrigation Prediction
 * [ ] Automated Pump Control
 * [ ] Anomaly Detection
 
-### Phase 3
+## Phase 3 • Computer Vision
 
-* [ ] Computer Vision
 * [ ] Crop Disease Detection
+* [ ] Crop Health Analysis
 * [ ] Yield Prediction
 * [ ] Satellite Image Analysis
 
-### Phase 4
+## Phase 4 • Autonomous Agriculture
 
 * [ ] Autonomous Farm Management
 * [ ] Digital Farm Twin
@@ -650,53 +573,85 @@ Field Worker
 
 ---
 
-# 🎯 Vision
+# 🌍 Expected Impact
 
-GreenFlow aims to transform traditional agriculture into an **intelligent, predictive, connected, and autonomous farming ecosystem**.
-
-Instead of asking:
-
-> **"When should I water my crops?"**
-
-GreenFlow answers:
-
-> **"How much water does this field need, when should it be applied, and can irrigation safely be delayed because rain is coming?"**
-
-### 🌱 Sense → Analyze → Predict → Decide → Automate → Optimize
-
----
-
-# 🌍 Impact
-
-GreenFlow is designed to help achieve:
+GreenFlow AI is designed to contribute toward:
 
 * 💧 Reduced water wastage
 * 🌱 Improved crop health
-* 🌾 Higher agricultural productivity
+* 🌾 Increased agricultural productivity
 * ⚡ Reduced energy consumption
 * 💰 Lower irrigation costs
-* 📊 Data-driven farming decisions
-* 🌍 More sustainable agriculture
+* 📊 Data-driven farming
+* 🌍 Sustainable agriculture
 * 🤖 Intelligent farm automation
 
 ---
 
-## ⭐ Project Status
+# 🎯 Vision
 
-**Status:** 🚀 Active Development
+GreenFlow AI aims to transform traditional agriculture into an:
 
-GreenFlow is being developed as an AI-ready precision agriculture platform with support for **smart irrigation, predictive analytics, IoT integration, weather intelligence, and autonomous farm management**.
+**Intelligent → Predictive → Connected → Automated → Sustainable**
+
+farming ecosystem.
+
+Instead of farmers asking:
+
+> **"When should I water my crops?"**
+
+GreenFlow AI aims to answer:
+
+> **"How much water does this field need, when should it be applied, and can irrigation safely be delayed because rain is coming?"**
 
 ---
 
-## 👨‍💻 Developer
+# 🧪 Project Status
 
-**GreenFlow AI**
+**🚀 Active Development**
+
+GreenFlow AI is being developed as an AI-ready precision agriculture platform with support for:
+
+* Smart irrigation
+* Predictive analytics
+* IoT integration
+* Weather intelligence
+* Farm analytics
+* Geospatial intelligence
+* Autonomous farm management
+
+---
+
+# 👨‍💻 Developer
+
+### GreenFlow AI
 
 > Building intelligent technology for smarter and more sustainable agriculture. 🌱
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is developed for educational, research, and innovation purposes.
+This project is developed for **educational, research, and innovation purposes**.
+
+---
+
+# ⭐ Support
+
+If you find this project interesting:
+
+⭐ Star the repository
+🍴 Fork the project
+🐛 Report issues
+💡 Suggest improvements
+🤝 Contribute to the project
+
+---
+
+<p align="center">
+
+### 🌱 GreenFlow AI
+
+**Sense • Predict • Automate • Optimize • Grow**
+
+</p>
