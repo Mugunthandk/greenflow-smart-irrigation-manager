@@ -6,7 +6,7 @@
 
 ### Autonomous AI Farm Intelligence & Precision Agriculture Platform
 
-**Sense → Understand → Predict → Simulate → Decide → Automate → Learn**
+**Sense → Understand → Predict → Simulate → Decide → Act → Verify → Learn**
 
 [![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)](#)
 [![AI](https://img.shields.io/badge/AI-Machine%20Learning-blue?style=for-the-badge)](#)
@@ -23,13 +23,15 @@
 
 # 🌾 Overview
 
-GreenFlow AI is an advanced **autonomous agricultural intelligence platform** designed to transform conventional farms into intelligent, predictive, and continuously improving ecosystems.
+GreenFlow AI is an **autonomous agricultural intelligence platform** designed to transform conventional farms into intelligent, predictive, decision-driven, and continuously improving ecosystems.
 
-Unlike traditional agricultural monitoring systems that only display sensor values, GreenFlow AI combines:
+Unlike conventional agricultural monitoring systems that primarily display sensor readings, GreenFlow AI connects **real-time farm sensing, AI intelligence, predictive analytics, simulation, decision-making, automation, and continuous feedback** into a unified agricultural intelligence system.
+
+The platform combines:
 
 - 🤖 Artificial Intelligence
 - 🧠 Machine Learning
-- 📡 IoT
+- 📡 IoT Sensor Intelligence
 - 🛰️ Satellite Intelligence
 - 🚁 Drone Intelligence
 - 📷 Computer Vision
@@ -38,42 +40,38 @@ Unlike traditional agricultural monitoring systems that only display sensor valu
 - 🧬 Explainable AI
 - 🗺️ Digital Farm Twins
 - 🧪 What-If Simulation
+- 💧 Irrigation Intelligence
+- 🌱 Crop Health Intelligence
+- 🐛 Disease & Pest Intelligence
 - 💰 Economic Optimization
 - 🌍 Sustainability Intelligence
 - 🤝 Multi-Agent AI
-- ⚙️ Autonomous Automation
+- ⚙️ Autonomous Farm Automation
 
-The platform continuously transforms real-world farm data into predictions, simulations, decisions, safe actions, and learning.
-
----
-
-# 🎯 Core Philosophy
+GreenFlow AI continuously transforms real-world agricultural data into:
 
 ```text
-                    🌾 REAL FARM
-                         │
-                         ▼
-                       SENSE
-                         │
-                         ▼
-                     UNDERSTAND
-                         │
-                         ▼
-                      PREDICT
-                         │
-                         ▼
-                     SIMULATE
-                         │
-                         ▼
-                      DECIDE
-                         │
-                         ▼
-                     AUTOMATE
-                         │
-                         ▼
-                   OBSERVE RESULTS
-                         │
-                         ▼
-                       LEARN
-                         │
-                         └───────────────↺
+                    RAW FARM DATA
+                          │
+                          ▼
+                       INSIGHT
+                          │
+                          ▼
+                      PREDICTION
+                          │
+                          ▼
+                     SIMULATION
+                          │
+                          ▼
+                       DECISION
+                          │
+                          ▼
+                        ACTION
+                          │
+                          ▼
+                      VERIFICATION
+                          │
+                          ▼
+                        LEARNING
+                          │
+                          └───────────────↺
