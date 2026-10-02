@@ -1,8 +1,8 @@
-# 🌾 GreenFlow AI
+# 🌱 GreenFlow AI
 
 <div align="center">
 
-# 🌱 GreenFlow AI
+# 🌾 GreenFlow AI
 
 ### Autonomous AI Farm Intelligence & Precision Agriculture Platform
 
@@ -21,57 +21,31 @@
 
 ---
 
-# 🌾 Overview
+## 🌾 Overview
 
-GreenFlow AI is an **autonomous agricultural intelligence platform** designed to transform conventional farms into intelligent, predictive, decision-driven, and continuously improving ecosystems.
+**GreenFlow AI** is an autonomous agricultural intelligence platform designed to transform conventional farms into **data-driven, predictive, decision-oriented, and continuously improving ecosystems**.
 
-Unlike conventional agricultural monitoring systems that primarily display sensor readings, GreenFlow AI connects **real-time farm sensing, AI intelligence, predictive analytics, simulation, decision-making, automation, and continuous feedback** into a unified agricultural intelligence system.
+Unlike traditional agricultural monitoring systems that primarily display sensor readings, GreenFlow AI creates an intelligent closed-loop system that connects:
 
-The platform combines:
+**Real-Time Sensing → AI Analysis → Prediction → Simulation → Decision → Automation → Verification → Learning**
 
-- 🤖 Artificial Intelligence
-- 🧠 Machine Learning
-- 📡 IoT Sensor Intelligence
-- 🛰️ Satellite Intelligence
-- 🚁 Drone Intelligence
-- 📷 Computer Vision
-- 🌦️ Weather Intelligence
-- 🔮 Predictive Analytics
-- 🧬 Explainable AI
-- 🗺️ Digital Farm Twins
-- 🧪 What-If Simulation
-- 💧 Irrigation Intelligence
-- 🌱 Crop Health Intelligence
-- 🐛 Disease & Pest Intelligence
-- 💰 Economic Optimization
-- 🌍 Sustainability Intelligence
-- 🤝 Multi-Agent AI
-- ⚙️ Autonomous Farm Automation
+The platform combines artificial intelligence, IoT, computer vision, satellite and drone intelligence, weather data, predictive analytics, digital twins, explainable AI, and autonomous farm automation into a unified precision agriculture ecosystem.
 
-GreenFlow AI continuously transforms real-world agricultural data into:
+---
+
+## 🎯 Vision
+
+> **Build an intelligent farm ecosystem that can sense its environment, understand crop conditions, predict future risks, simulate possible outcomes, make optimized decisions, automate actions, verify results, and continuously learn.**
+
+GreenFlow AI is designed around the idea that agriculture should move from:
 
 ```text
-                    RAW FARM DATA
-                          │
-                          ▼
-                       INSIGHT
-                          │
-                          ▼
-                      PREDICTION
-                          │
-                          ▼
-                     SIMULATION
-                          │
-                          ▼
-                       DECISION
-                          │
-                          ▼
-                        ACTION
-                          │
-                          ▼
-                      VERIFICATION
-                          │
-                          ▼
-                        LEARNING
-                          │
-                          └───────────────↺
+Reactive Farming
+      ↓
+Monitoring
+      ↓
+Prediction
+      ↓
+Intelligent Decision Making
+      ↓
+Autonomous Farming
