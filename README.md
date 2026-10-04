@@ -4,18 +4,19 @@
 
 # 🌾 GreenFlow AI
 
-### Autonomous AI Farm Intelligence & Precision Agriculture Platform
+### Autonomous Farm Intelligence, Digital Twin & Precision Agriculture Operating System
 
-**Sense → Understand → Predict → Simulate → Decide → Act → Verify → Learn**
+**Sense → Understand → Predict → Simulate → Decide → Act → Verify → Learn → Optimize**
 
-[![Status](https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge)](#)
-[![AI](https://img.shields.io/badge/AI-Machine%20Learning-blue?style=for-the-badge)](#)
-[![IoT](https://img.shields.io/badge/IoT-Smart%20Agriculture-orange?style=for-the-badge)](#)
-[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Crop%20Intelligence-purple?style=for-the-badge)](#)
-[![Cloud](https://img.shields.io/badge/Cloud-Scalable%20Architecture-informational?style=for-the-badge)](#)
-[![Digital Twin](https://img.shields.io/badge/Digital%20Twin-Farm%20Simulation-green?style=for-the-badge)](#)
-[![XAI](https://img.shields.io/badge/XAI-Explainable%20AI-yellow?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#)
+<p>
+  <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-Agentic%20AI-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/IoT-Edge%20Intelligence-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-Crop%20Intelligence-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Digital%20Twin-Farm%20Simulation-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/XAI-Explainable%20AI-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
 </div>
 
@@ -23,29 +24,91 @@
 
 ## 🌾 Overview
 
-**GreenFlow AI** is an autonomous agricultural intelligence platform designed to transform conventional farms into **data-driven, predictive, decision-oriented, and continuously improving ecosystems**.
+**GreenFlow AI** is an advanced autonomous agriculture intelligence platform designed to transform conventional farms into **predictive, intelligent, data-driven, and self-improving agricultural ecosystems**.
 
-Unlike traditional agricultural monitoring systems that primarily display sensor readings, GreenFlow AI creates an intelligent closed-loop system that connects:
+Unlike traditional smart farming platforms that simply display sensor readings, GreenFlow AI combines:
 
-**Real-Time Sensing → AI Analysis → Prediction → Simulation → Decision → Automation → Verification → Learning**
+- 🤖 Agentic AI
+- 🌐 IoT
+- 🧠 Machine Learning
+- 👁️ Computer Vision
+- 🛰️ Satellite Intelligence
+- 🚁 Drone Intelligence
+- 🌦️ Weather Intelligence
+- 🌱 Crop Intelligence
+- 💧 Predictive Irrigation
+- 🧬 Digital Twin
+- 🔮 What-If Simulation
+- 🎯 Autonomous Decision Making
+- 🔍 Explainable AI
+- ♻️ Continuous Learning
+- 💰 Farm Economics
+- 🌍 Sustainability Analytics
 
-The platform combines artificial intelligence, IoT, computer vision, satellite and drone intelligence, weather data, predictive analytics, digital twins, explainable AI, and autonomous farm automation into a unified precision agriculture ecosystem.
+into one unified agricultural intelligence ecosystem.
 
 ---
 
-## 🎯 Vision
-
-> **Build an intelligent farm ecosystem that can sense its environment, understand crop conditions, predict future risks, simulate possible outcomes, make optimized decisions, automate actions, verify results, and continuously learn.**
-
-GreenFlow AI is designed around the idea that agriculture should move from:
+# 🧠 Core Intelligence Loop
 
 ```text
-Reactive Farming
-      ↓
-Monitoring
-      ↓
-Prediction
-      ↓
-Intelligent Decision Making
-      ↓
-Autonomous Farming
+                    ┌──────────────────────┐
+                    │      REAL FARM       │
+                    │ Soil • Crop • Water  │
+                    │ Weather • Equipment  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    SENSE & OBSERVE    │
+                    │ IoT • Drone • Camera │
+                    │ Satellite • Weather  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      UNDERSTAND       │
+                    │ AI + CV + Data Fusion │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │       PREDICT         │
+                    │ Yield • Disease      │
+                    │ Water • Pest • Risk  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    DIGITAL TWIN       │
+                    │   What-If Simulation  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    AI DECISION        │
+                    │ Optimization + Agents │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │        ACT            │
+                    │ Pump • Valve • Drone │
+                    │ Fertigation • Alerts │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │       VERIFY          │
+                    │ Compare Prediction    │
+                    │ With Actual Result    │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │        LEARN          │
+                    │ Feedback + ML         │
+                    │ Continuous Learning   │
+                    └──────────┬───────────┘
+                               │
+                               └──────────► LOOP
